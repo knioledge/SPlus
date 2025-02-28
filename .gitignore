@@ -1,0 +1,7 @@
+# Ignore virtual/conda env folders if they ever appear
+venv/
+env/
+*.egg-info/
+# created by virtualenv automatically
+
+/.venv/
