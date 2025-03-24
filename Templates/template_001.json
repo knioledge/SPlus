@@ -1,0 +1,13 @@
+{
+  "id": "template_001",
+  "name": "Basic Addition MCQ",
+  "type": "MultipleChoice",
+  "variables": ["a", "b"],
+  "content": {
+    "question": "What is {{a}} + {{b}}?",
+    "choices": ["{{a_plus_b}}", "{{a_plus_b_plus_1}}", "{{a_plus_b_minus_1}}"],
+    "answer": "{{a_plus_b}}"
+  },
+  "tags": ["math", "grade1", "addition"],
+  "difficulty": "easy"
+}
